@@ -1,4 +1,4 @@
--- Read-write exports, unchanged arguments and results, and a server without session ids.
+-- Write exports, unchanged arguments and results, and a server without session ids.
 return {
 	scenario = {publisher = {client_id = "fixture-client"}, access = {data = "write"}, config = {}, auth_method = "oauth", auth_config = {}},
 	configure = function()
